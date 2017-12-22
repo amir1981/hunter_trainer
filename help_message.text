@@ -1,0 +1,7 @@
+name: asc
+synopsis: asc type mname.dat file1 [files]
+descr: creates a model, updates it, and scores it
+example: asc train ./models/000_model.dat f1.raw f2.raw f3.raw
+
+options:
+ -help: display this help message
